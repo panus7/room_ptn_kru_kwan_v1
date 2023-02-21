@@ -1,0 +1,426 @@
+{
+  "RoomHeader": "ห้องเรียน ป.3/7 ปีการศึกษา 2565 เทอม 2",
+  "RoomNo": "3/7",
+  "ListSubjects": [
+      {
+          "value": "",
+          "label": "เลือกวิชา"
+      },
+      {
+          "value": "EC3000",
+          "label": "ประชาสัมพันธ์"
+      },
+      {
+          "value": "EC3001",
+          "label": "วิชาคณิตศาสตร์"
+      },
+      {
+          "value": "EC3002",
+          "label": "วิชาสังคมศึกษา"
+      },
+      {
+          "value": "EC3003",
+          "label": "วิชาวิทยาศาสตร์"
+      },
+      {
+          "value": "EC3004",
+          "label": "วิชาภาษาไทย"
+      },
+      {
+          "value": "EC3005",
+          "label": "วิชาภาษาอังกฤษ"
+      },
+      {
+          "value": "EC3006",
+          "label": "วิชา Conver"
+      },
+      {
+          "value": "EC3007",
+          "label": "วิชาจิณตคณิต"
+      },
+      {
+          "value": "EC3008",
+          "label": "วิชาภาษาจีน"
+      },
+      {
+          "value": "EC3009",
+          "label": "วิชา STEM"
+      },
+      {
+          "value": "EC3010",
+          "label": "วิชาศิลปะ"
+      },
+      {
+          "value": "EC3011",
+          "label": "วิชาพละ"
+      },
+      {
+          "value": "EC3012",
+          "label": "วิชาสุขศึกษา"
+      }
+      ,
+      {
+          "value": "EC3013",
+          "label": "วิชา Computer"
+      }
+      ,
+      {
+          "value": "EC3014",
+          "label": "วิชา ดนศ."
+      }
+      ,
+      {
+          "value": "EC3015",
+          "label": "วิชา ประวัติ"
+      }
+      ,
+      {
+          "value": "EC3016",
+          "label": "วิชา คีย์บอร์ด"
+      }
+      ,
+      {
+          "value": "EC3017",
+          "label": "วิชา คัดอ่านเขียนไทย"
+      }
+      ,
+      {
+          "value": "EC3021",
+          "label": "วิชา Mad Sci."
+      }
+      ,
+      {
+          "value": "EC3018",
+          "label": "วิชา Club"
+      }
+      ,
+      {
+          "value": "EC3019",
+          "label": "ประกาศเพิ่มเติม.1"
+      },
+      {
+          "value": "EC3020",
+          "label": "ประกาศเพิ่มเติม.2"
+      }
+      ,
+      {
+          "value": "EC3022",
+          "label": "วิชาลูกเสือ"
+      }
+      ,
+      {
+          "value": "EC3023",
+          "label": "วิชาแนะแนว"
+      }
+  ],
+  "TableStudy": [
+      {
+          "date": "จันทร์",
+          "subs": [
+              {
+                  "Class": "MON_1",
+                  "SubjectName": "ภาษาไทย",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "MON_2",
+                  "SubjectName": "E2",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "MON_3",
+                  "SubjectName": "สุขศึกษา",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+               {
+                  "Class": "MON_5",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "MON_4",
+                  "SubjectName": "Con/Con",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+             
+              {
+                  "Class": "MON_6",
+                  "SubjectName": "จีน/จีน",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+               {
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "MON_7",
+                  "SubjectName": "Keyboard",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              } 
+          ]
+      },
+      {
+          "date": "อังคาร",
+          "subs": [
+              {
+                  "Class": "TUE_1",
+                  "SubjectName": "จีน/จีน",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "TUE_2",
+                  "SubjectName": "สังคม",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              
+                {
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "TUE_3",
+                  "SubjectName": "Com",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+               {
+                  "Class": "TUE_5",
+                  "SubjectName": "-",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "TUE_4",
+                  "SubjectName": "คณิต",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+             
+              {
+                  "Class": "TUE_6",
+                  "SubjectName": "พละ",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "TUE_7",
+                  "SubjectName": "E1",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              }
+          ]
+      },
+      {
+          "date": "พุธ",
+          "subs": [
+              {
+                  "Class": "WED_1",
+                 "SubjectName": "Con/Con",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "WED_2",
+                  "SubjectName": "E2",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              
+                {
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "WED_3",
+                  "SubjectName": "ลูกเสือ",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+               {
+                  "Class": "WED_5",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "WED_4",
+                 "SubjectName": "แนะแนว",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+             
+              {
+                  "Class": "WED_6",
+                  "SubjectName": "การงาน",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+               {
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "WED_7",
+                  "SubjectName": "วิทย์",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              }
+          ]
+      },
+      {
+          "date": "พฤหัส",
+          "subs": [
+              {
+                  "Class": "THU_1",
+                 "SubjectName": "Steam/ผู้นำ",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "THU_2",
+                 "SubjectName": "ดนศ.",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              
+                {
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "THU_3",
+                  "SubjectName": "วิทย์",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "THU_5",
+                  "SubjectName": "-",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "THU_4",
+                  "SubjectName": "ภาษาไทย",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              }, 
+              {
+                  "Class": "THU_6",
+                  "SubjectName": "คณิต",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "WED_7",
+                  "SubjectName": "สังคม",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              } 
+          ]
+      },
+      {
+          "date": "ศุกร์",
+          "subs": [
+              {
+                  "Class": "FRI_1",
+                  "SubjectName": "ภาษาไทย",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "FRI_2",
+                  "SubjectName": "ศิลปะ",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              
+                {
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "FRI_3",
+                 "SubjectName": "Mad Sci",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              }, 
+              {
+                  "Class": "FRI_5",
+                "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "FRI_4",
+                 "SubjectName": "Health/Con",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "FRI_6",
+                 "SubjectName": "Art/จีน",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },{
+                  "Class": "RELAX",
+                  "SubjectName": "",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              },
+              {
+                  "Class": "FRI_7",
+                 "SubjectName": "คณิต",
+                  "ChanelUrl": "",
+                  "ChanelType": ""
+              } 
+          ]
+      }
+  ]
+  ,
+  "ListOfClub": [
+      {
+          "clubname": "",
+          "cluburl": ""
+      }
+  ]
+}
