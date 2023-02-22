@@ -1,9 +1,9 @@
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import masterdata from './masterdata.json';
 import { faThumbsUp, faThumbsDown } from '@fortawesome/free-solid-svg-icons';
 import { Observable } from 'rxjs';
-import { HttpClient } from '@angular/common/http';
 import { forEachChild } from 'typescript';
 
 @Component({
@@ -72,20 +72,33 @@ export class AppComponent {
         SubjectID: this.mSubjectID,
         SubjectDescription: this.mSubjectMemo,
         Cxl: '',
-        ListData: [
-          {
-            ImageData: '',
-            ImageDesc: '',
-            LinkUrl: '',
-            FileName: '',
-          },
-        ],
+        ListData: [],
       },
     };
 
     var filesAmount = this.urls.length;
     for (let i = 0; i < filesAmount; i++) {
-      update.param.ListData.push(this.urls[i]);
+      let imgdata = this.urls[i];
+      console.log(imgdata);
+
+      let itemImg = null;
+      if (imgdata.startsWith('data:application/pdf;')) {
+        itemImg = {
+          ImageData: imgdata,
+          ImageDesc: '',
+          LinkUrl: '',
+          FileName: '' + i + '.pdf',
+        };
+      } else {
+        itemImg = {
+          ImageData: imgdata,
+          ImageDesc: '',
+          LinkUrl: '',
+          FileName: '' + i + '.jpg',
+        };
+      }
+
+      if (itemImg) update.param.ListData.push(itemImg);
     }
     console.log(update);
 
@@ -97,12 +110,18 @@ export class AppComponent {
   }
 
   public UpdateStudyDate(data: any): Observable<any> {
-    var res = this.http.post<any>(
-      'https://dev-logic.net/DxHope/RestService.svc/UpdateStudyDate',
-      { data }
-    );
+    // var res = this.http.post<any>(
+    //   'https://dev-logic.net/DxHope/RestService.svc/UpdateStudyDate',
+    //   { data }
+    // );
+    //return res;
 
-    return res;
+    let headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+    });
+
+    let url = 'https://dev-logic.net/DxHope/RestService.svc/UpdateStudyDate';
+    return this.http.post<any>(url, JSON.stringify(data), { headers: headers });
   }
 }
 
