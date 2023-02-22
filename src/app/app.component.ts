@@ -68,7 +68,7 @@ export class AppComponent {
       param: {
         ContextKey: 'ReU',
         RoomNo: this.masterData.RoomNo,
-        StudyDate: this.fromDate,
+        StudyDate: this.fromDate + 'T00:00:00',
         SubjectID: this.mSubjectID,
         SubjectDescription: this.mSubjectMemo,
         Cxl: '',
@@ -88,13 +88,21 @@ export class AppComponent {
       update.param.ListData.push(this.urls[i]);
     }
     console.log(update);
+
+    this.UpdateStudyDate(update).subscribe((response: any) => {
+      console.log(response);
+      window.alert('Updated');
+      window.location.reload();
+    });
   }
 
   public UpdateStudyDate(data: any): Observable<any> {
-    return this.http.post<any>(
-      'http://203.154.55.194:8999/RestService.svc/' + 'UpdateStudyDate',
-      data
+    var res = this.http.post<any>(
+      'https://dev-logic.net/DxHope/RestService.svc/UpdateStudyDate',
+      { data }
     );
+
+    return res;
   }
 }
 
