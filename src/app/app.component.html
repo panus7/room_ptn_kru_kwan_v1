@@ -28,7 +28,7 @@
         name="fromdp"
         [(ngModel)]="fromDate"
         type="date"
-      /> 
+      />
       <!-- <input
         id="exampleFormControlSelect_date"
         class="form-control form-control-sm"
@@ -80,10 +80,15 @@
     </div>
     <div class="row my-3">
       <p>Attached file Image / PDF</p>
-      <div class="col">
+      <div class="row col-12">
         <div class="flex">
           <span class="card">
-            <img *ngFor="let url of urls" [src]="url" height="280" />
+            <img
+              *ngFor="let url of urls"
+              [src]="url"
+              height="280"
+              style="margin:2px"
+            />
           </span>
 
           <span class="add">
